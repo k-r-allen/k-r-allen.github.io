@@ -21,13 +21,14 @@
                 <name>Kelsey Allen</name>
               </p>
               <p>
-                I am currently a Research Scientist at DeepMind. I completed my PhD at MIT under the supervision of Josh Tenenbaum in the <a href="https://cocosci.mit.edu">Computational Cognitive Science group</a> and received my B.Sc. from the <a href="https://ubc.ca">University of British Columbia</a> in physics.
+                I am currently a Senior Research Scientist at DeepMind. I completed my PhD at MIT under the supervision of Josh Tenenbaum in the <a href="https://cocosci.mit.edu">Computational Cognitive Science group</a> and received my B.Sc. from the <a href="https://ubc.ca">University of British Columbia</a> in physics.
               </p>
               <p style="text-align:center">
                 <a href="mailto:krallen@google.com">Email</a> &nbsp;&nbsp;
                 <a href="https://twitter.com/KelseyRAllen">Twitter</a> &nbsp;&nbsp;
                 <a href="https://github.com/k-r-allen">GitHub</a> &nbsp;&nbsp;
                 <a href="https://scholar.google.com/citations?user=kpcjFekAAAAJ&hl=en">Google Scholar</a> &nbsp;&nbsp;
+                <a href="CV_kelseyallen.pdf">CV</a> &nbsp;&nbsp;
               </p>
             </td>
             <td style="padding:2.5%;width:30%;max-width:30%">
@@ -40,12 +41,13 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I am interested in cognitive science, animal cognition, robotics, and AI. I want to understand how humans generalize so well from such little data, and build machines to be equally flexible. Specifically I am mostly focused on the interactions between predictive representations and planning (particularly in the domain of tool use). 
+                I study cognitive science, machine learning, and robotics. I am particularly interested in tool use and tool creation, which can range from every-day challenges, like wielding a broom to get something from under a couch, to grand challenges in science and engineering, like creating wind turbines or rocket ships. At both extremes, people adaptively reshape their environments in ways that expand the scope of what they are individually capable of. 
+                My research investigates which computational mechanisms support these complex behaviors in humans, and tries to endow machines with similar abilities to flexibly and appropriately solve new challenges. 
               </p>
               <p>* denotes equal contribution.</p>
 
               <p>
-              <strong>Selected projects for physical reasoning</strong>
+              <strong>Selected projects</strong>
               </p>
             </td>
           </tr>
@@ -66,11 +68,34 @@
               <strong>Kelsey Allen*</strong>, Tatiana Guevara*, Kimberly Stachenfeld*, Alvaro Sanchez-Gonzalez, Peter Battaglia, Jessica Hamrick, Tobias Pfaff
               <br>
 
-              <em>arXiv</em>, 2022 <br>
+              <em>NeurIPS</em> 2022 <br>
               [<a href="https://sites.google.com/view/optimizing-designs">Website</a>]
               <br>
               <p></p>
-              <p>Using graph neural networks, we learn generic, differentiable physical simulators from offline, task-agnostic datasets. We take gradients through these learned simulators to optimize physical designs for a variety of tasks without further fine-tuning. This method can create 2D containers, funnels and ramps, 3D landscapes to redirect water, and can be used to design an airfoil as performant as those found with highly engineered solvers. </p>
+              <p>Using graph neural networks, we learn generic, differentiable physical simulators from offline, task-agnostic datasets. We take gradients through these learned simulators to optimize physical designs for a variety of tasks without further fine-tuning. This method can create 2D containers, funnels, and ramps, 3D landscapes to redirect water, and can be used to design an airfoil as performant as those found with highly engineered solvers. </p>
+            </td>
+          </tr>
+
+          <tr>
+
+            <td width="25%">
+              <div class="one">
+                <div class="two"><img src='images/fignet.gif' width="160"></div>
+              </div>
+            </td>
+            <td valign="middle" width="75%">
+            <a href="https://arxiv.org/abs/2212.03574">
+                <papertitle>Learning rigid dynamics with face interaction graph networks</papertitle>
+            </a>
+              <br>
+              <strong>Kelsey Allen*</strong>, Yulia Rubanova*, Tatiana Guevara, William Whitney, Alvaro Sanchez-Gonzalez, Peter Battaglia, Tobias Pfaff
+              <br>
+
+              <em>arXiv</em> 2022 <br>
+              [<a href="https://sites.google.com/view/fig-net">Website</a>]
+              <br>
+              <p></p>
+              <p>We create a new graph network architecture for modeling rigid body dynamics by using insights from computer graphics for how to represent and resolve collisions. We show that our face interaction graph network (FIGNet) can dramatically improve both the accuracy and efficiency of learned simulators for complex rigid body datasets in simulation, while also being up to 2x more accurate compared to tuned analytic simulators (such as MuJoCo and PyBullet) when fit to real world data. </p>
             </td>
           </tr>
 
@@ -82,16 +107,16 @@
               </div>
             </td>
             <td valign="middle" width="75%">
-            <a href="https://arxiv.org/abs/1907.09620">
-                <papertitle>The Tools challenge: rapid trial-and-error learning in physical problem solving</papertitle>
+            <a href="https://www.pnas.org/doi/10.1073/pnas.1912341117">
+                <papertitle>Rapid trial-and-error learning with simulation supports flexible tool use and physical reasoning</papertitle>
             </a>
               <br>
               <strong>Kelsey Allen*</strong>, Kevin Smith*, Josh Tenenbaum
               <br>
-              <em>PNAS</em>, 2020
-              <em>Cognitive Science Society</em>, 2019 <font color="red"><strong>(Oral Presentation)</strong></font><br>
-              <em>ICLR <a href="http://spirl.info/">SPiRL Workshop</a></em>, 2019 <br>
-              <em>RLDM</em>, 2019
+              <em>PNAS</em> 2020 <br>
+              <em>Cognitive Science Society</em> 2019 <font color="red"><strong>(Oral Presentation)</strong></font><br>
+              <em>ICLR <a href="http://spirl.info/">SPiRL Workshop</a></em> 2019 <br>
+              <em>RLDM</em> 2019
               <br>
               [<a href="https://k-r-allen.github.io/tool-games/">Website</a>]
               <br>
@@ -113,7 +138,7 @@
               <br>
               Marc Toussaint, <strong>Kelsey Allen</strong>, Kevin Smith, Joshua B Tenenbaum
               <br>
-              <em>Robotics: Science and Systems (RSS)</em>, 2018 &nbsp; <font color="red"><strong>(Best Paper)</strong></font><br>
+              <em>Robotics: Science and Systems (RSS)</em> 2018 &nbsp; <font color="red"><strong>(Best Paper)</strong></font><br>
               [<a href="https://github.com/MarcToussaint/18-RSS-PhysicalManipulation">Code</a>]
               [<a href="https://www.youtube.com/watch?v=-L4tCIGXKBE">Video</a>]
               <p></p>
@@ -135,7 +160,7 @@
               <br>
               Jessica Hamrick*, <strong>Kelsey Allen*</strong>, Victor Bapst, Tina Zhu, Kevin R McKee, Joshua B Tenenbaum, Peter W Battaglia
               <br>
-              <em>Cognitive Science Society</em>, 2018 &nbsp; 
+              <em>Cognitive Science Society</em> 2018 &nbsp; 
               <p></p>
               <p>We introduce a deep reinforcement learning agent whose policy is represented over the edges of a graph. We demonstrate that this method is able to learn how to glue blocks together to ensure a block tower is stable and generalizes across different sizes of block towers. The relational policy representation obtains super-human performance on this task.</p>
             </td>
@@ -163,8 +188,8 @@
               <br>
               Tom Silver, <strong>Kelsey Allen</strong>, Leslie Kaelbling, Josh Tenenbaum
               <br>
-              <em>ICLR <a href="http://spirl.info/">SPiRL Workshop</a></em>, 2019 <br>
-              <em>RLDM</em>, 2019
+              <em>ICLR <a href="http://spirl.info/">SPiRL Workshop</a></em> 2019 <br>
+              <em>RLDM</em> 2019
               <br>
               [<a href="https://sites.google.com/view/plp-mit">Website</a>]
               [<a href="https://github.com/tomsilver/policies_logic_programs">Code</a>]
@@ -186,7 +211,7 @@
               <br>
               <strong>Kelsey Allen</strong>, Evan Shelhamer*, Hanul Shin*, Josh Tenenbaum
               <br>
-              <em>ICML</em>, 2019
+              <em>ICML</em> 2019
               <br>
               <p></p>
               <p>We present infinite mixture prototypes (IMP), which adaptively adjust model capacity by representing classes as <em>sets</em> of clusters and inferring their number. IMP can be trained in fully or semi-supervised settings, and generalizes well to sub-class testing from super-class training (with 10-25% improvements over previous approaches).</p>
@@ -204,6 +229,29 @@
           </tr>
         </table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr>
+            <td width="25%">
+              <div class="one">
+                <div class="two"><img src='images/corl_rigids.gif' width="160"></div>
+              </div>
+            </td>
+            <td valign="middle" width="75%">
+            <a href="https://openreview.net/forum?id=rbIzq-I84i_">
+                <papertitle>Graph network simulators can learn discontinuous, rigid contact dynamics</papertitle>
+            </a>
+              <br>
+              <strong>Kelsey Allen*</strong>, Tatiana Lopez-Guevara*, Yulia Rubanova, Kimberly Stachenfeld, Alvaro Sanchez-Gonzalez, Peter Battaglia, Tobias Pfaff
+              <br>
+
+              <em>Conference on Robot Learning</em> 2022 <br>
+              [<a href="https://sites.google.com/view/gnn-rigids/home">Website</a>]
+              <br>
+              <p></p>
+              <p>Through a set of careful experiments, we show that graph network simulators can model discontinuities common to rigid body dynamics when impulse is instantly exchanged between two objects. Furthermore, we show that graph network simulators can even outperform tuned analytic simulators such as Drake, PyBullet and MuJoCo for real world rigid body dynamics with as few as 16 trajectories of real world data. </p>
+            </td>
+          </tr>
+
             <tr>
             <td width="25%">
               <div class="one">
@@ -217,7 +265,7 @@
               <br>
               Tom Silver*, <strong>Kelsey Allen*</strong>, Josh Tenenbaum, Leslie Kaelbling
               <br>
-              <em>arXiv</em>, 2018
+              <em>arXiv</em> 2018
               <br>
               [<a href="https://k-r-allen.github.io/residual-policy-learning/">Website</a>]
               [<a href="https://github.com/k-r-allen/residual-policy-learning">Code</a>]
@@ -241,7 +289,7 @@
               <br>
               Victoria Xia*, Zi Wang*, <strong>Kelsey Allen</strong>, Tom Silver, Leslie Kaelbling
               <br>
-              <em>ICLR</em>, 2019
+              <em>ICLR</em> 2019
               <br>
               <p></p>
               <p>We present a method for describing and learning transition models in complex uncertain domains using relational rules.</p>
@@ -259,7 +307,7 @@
               <br>
               Jo&atilde;o Loula, Tom Silver, <strong>Kelsey Allen</strong>, Josh Tenenbuam
               <br>
-              <em>ICML <a href="https://sites.google.com/view/mbrl-icml2019/home?authuser=0">MBRL Workshop</a></em>, 2019
+              <em>ICML <a href="https://sites.google.com/view/mbrl-icml2019/home?authuser=0">MBRL Workshop</a></em> 2019
               <br>
               <p></p>
               <p>We present a model that learns mode constraints from expert demonstrations. We show that it is data efficient, and that it learns interpretable representations that it can leverage to effectively plan in out-of-distribution environments.</p>
@@ -280,7 +328,7 @@
               <br>
               Filipe de Avila Belbute-Peres, Kevin Smith, <strong>Kelsey Allen</strong>, Josh Tenenbaum, J. Zico Kolter
               <br>
-              <em>NeurIPS</em>, 2018 <font color="red"><strong>(Spotlight)</strong></font><br>
+              <em>NeurIPS</em> 2018 <font color="red"><strong>(Spotlight)</strong></font><br>
               [<a href="https://github.com/locuslab/lcp-physics">Code</a>]
               <p></p>
               <p>We develop a differentiable physics engine in PyTorch which can be incorporated into standard end-to-end pipelines for model-based learning and control.</p>
@@ -299,7 +347,7 @@
               <br>
               Peter W Battaglia, Jessica B Hamrick, Victor Bapst, Alvaro Sanchez-Gonzalez, Vinicius Zambaldi, Mateusz Malinowski, Andrea Tacchetti, David Raposo, Adam Santoro, Ryan Faulkner, Caglar Gulcehre, Francis Song, Andrew Ballard, Justin Gilmer, George Dahl, Ashish Vaswani, <strong>Kelsey Allen</strong>, Charles Nash, Victoria Langston, Chris Dyer, Nicolas Heess, Daan Wierstra, Pushmeet Kohli, Matt Botvinick, Oriol Vinyals, Yujia Li, Razvan Pascanu
               <br>
-              <em>arXiv</em>, 2018 
+              <em>arXiv</em> 2018 
               <br>
               [<a href="https://github.com/deepmind/graph_nets">Code</a>]
               [<a href="https://cbmm.mit.edu/video/principles-and-applications-relational-inductive-biases-deep-learning">Tutorial Video</a>]
@@ -328,7 +376,7 @@
               <br>
               Jo&atilde;o Loula, Tom Silver, <strong>Kelsey Allen</strong>, Josh Tenenbaum
               <br>
-              <em>Cognitive Science Society</em>, 2019
+              <em>Cognitive Science Society</em> 2019
               <br>
               <p></p>
               <p>We present a model that starts out with a language of low-level physical constraints and, by  observing expert demonstrations, builds up a library of high-level concepts that afford planning  and action understanding.</p>
@@ -345,7 +393,7 @@
               <br>
               Jonathan Gill, <strong>Kelsey Allen</strong>, Alexander Williams, Mark Goldman
               <br>
-              <em>Cosyne</em>, 2019
+              <em>Cosyne</em> 2019
               <p></p>
               <p>We present a simple method for achieving context-dependent filtering of incoming signals in biologically plausible neural networks. </p>
             </td>
@@ -363,7 +411,7 @@
               <br>
               <strong>Kelsey Allen</strong>, Ilker Yildirim, Joshua B Tenenbaum
               <br>
-              <em>Cognitive Science Society</em>, 2016  <font color="red"><strong>(Oral Presentation)</strong></font>
+              <em>Cognitive Science Society</em> 2016  <font color="red"><strong>(Oral Presentation)</strong></font>
               <p></p>
               <p>We present a framework for explaining differences between familiar and unfamiliar face processing which combines feedforward neural networks with non-parametric generative models.</p>
             </td>
@@ -381,7 +429,7 @@
               <br>
               <strong>Kelsey Allen</strong>, Julian Jara-Ettinger, Tobias Gerstenberg, Max Kleiman-Weiner, Joshua B Tenenbaum
               <br>
-              <em>Cognitive Science Society</em>, 2015
+              <em>Cognitive Science Society</em> 2015
               <p></p>
               <p>We present a coordination game in which three agents must use their knowledge of each others' abilities in order to determine the best action to take. We show that a model which acts to maximize utility under recursive theory of mind, combined with a measure of outcome, best predicts human decisions.</p>
             </td>
@@ -409,7 +457,7 @@
               <br>
               ATLAS Collaboration
               <br>
-              <em>Physical Review D</em>, 2014
+              <em>Physical Review D</em> 2014
               <p></p>
               <p>I contributed analyses to determine new limits for particles that might emerge from minimal Z' models.</p>
             </td>
@@ -427,7 +475,7 @@
               <br>
               Evlyn Pless, Jovel Queirolo, Noa Pinter-Wollman, Sam Crow, <strong>Kelsey Allen</strong>, Maya B Mathur, Deborah M Gordon
               <br>
-              <em>PLoS One</em>, 2015
+              <em>PLoS One</em> 2015
               <p></p>
               <p>We analyzed the foraging patterns of red harvester ants and found that ants which had greater numbers of antennal contacts with returning foragers were more likely to leave the nest to forage. </p>
             </td>
@@ -445,7 +493,7 @@
               <br>
               <strong>Kelsey Allen</strong>, Giuseppe Carenini, Raymond Ng
               <br>
-              <em>EMNLP</em>, 2014
+              <em>EMNLP</em> 2014
               <p></p>
               <p>We developed a new set of features based on the automatically generated rhetorical structure of online forum conversations, and show that these features are helpful for detecting disagreement.</p>
             </td>
